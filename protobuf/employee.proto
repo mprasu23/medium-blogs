@@ -1,10 +1,10 @@
 syntax = "proto3";
+package myPackage;
 
 message Employee {
    int32 serialNumber = 1;
     string firstName = 2;
     int32 age = 3;
-    float optional salary = 4;
 }
 
 message Employees {
